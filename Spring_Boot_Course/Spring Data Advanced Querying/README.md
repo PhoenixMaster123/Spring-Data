@@ -35,10 +35,10 @@
 | `@Enumerated`        |The @Enumerated annotation in Spring Data JPA (from the JPA specification) is used to specify how an enum should be persisted in the database.       |
 
 NOTE:
-EnumType.ORDINAL	Stores the ordinal (integer index, starting at 0).
+EnumType.ORDINAL	Stores the ordinal (integer index, starting at 0). <br>
 EnumType.STRING	Stores the name of the enum constant (as a string) (recommended).
 
-Problem: if you add a new enum constant, the index of the existing constants will change (EnumType.ORDINAL)
+Problem: if you add a new enum constant, the index of the existing constants will change (EnumType.ORDINAL) <br>
 Problem: if you rename an enum constant, the value in the database will not change (EnumType.STRING)
 
 ---
@@ -86,4 +86,3 @@ public interface ChemicalIngredientRepository extends IngredientRepository<Basic
     List<ChemicalIngredient> findByChemicalFormula(String chemicalFormula);
 }
 ```
-
