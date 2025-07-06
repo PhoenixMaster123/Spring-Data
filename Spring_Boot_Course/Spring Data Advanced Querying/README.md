@@ -3,12 +3,10 @@
 ## Core Annotations
 
 | Annotation      | Layer / Purpose               | Description                                                                                                                                 |
-|------------------|-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+|------------------|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | `@Component`     | Generic (All Layers)          | Marks a class as a Spring-managed component. Enables component scanning and dependency injection.                                          |
 | `@Service`       | Service Layer                 | Specialization of `@Component`. Indicates that the class holds business logic. Automatically discovered by Spring.                         |
 | `@Repository`    | Persistence Layer (DAO)       | Specialization of `@Component`. Enables exception translation for database operations.                                                     |
-| `@Controller`    | Web Layer (MVC)               | Marks a class as a web controller. Used to define request mappings and handle web requests.                                                |
-| `@RestController`| Web Layer (REST API)          | Combination of `@Controller` and `@ResponseBody`. Used for RESTful controllers that return JSON/XML directly.                              |
 
 ---
 
@@ -17,8 +15,6 @@
 | Annotation    | Purpose                                                                                       |
 |---------------|-----------------------------------------------------------------------------------------------|
 | `@Autowired`  | Injects a Spring-managed bean by type. Can be used on constructors, fields, or setters.       |
-| `@Qualifier`  | Used with `@Autowired` to specify which bean to inject when multiple candidates are available.|
-| `@Value`      | Injects values from application properties (e.g. `${property.name}` or default values).       |
 
 ---
 
@@ -27,12 +23,13 @@
 | Annotation           | Purpose                                                                                      |
 |----------------------|----------------------------------------------------------------------------------------------|
 | `@Entity`            | Marks a class as a JPA entity. Maps to a database table.                                     |
-| `@Table`             | Specifies the database table name for an entity (optional, defaults to class name).         |
+| `@Table`             | Specifies the database table name for an entity (optional, defaults to class name).          |
 | `@Id`                | Specifies the primary key of an entity.                                                      |
 | `@GeneratedValue`    | Defines how the primary key is generated (e.g., auto-increment).                             |
 | `@Column`            | Specifies column properties (e.g., name, length, nullable).                                  |
 | `@MappedSuperclass`  | Allows fields to be inherited by JPA entities. Used for abstract base classes.               |
-| `@Enumerated`        |The @Enumerated annotation in Spring Data JPA (from the JPA specification) is used to specify how an enum should be persisted in the database.       |
+| `@Enumerated`        | The @Enumerated annotation in Spring Data JPA (from the JPA specification) is used to specify how an enum should be persisted in the database. |
+| `@Param`             | The @Param annotation in Spring Data JPA is used to bind method parameters to named parameters in a JPQL or native query defined with @Query.  |
 
 NOTE:
 EnumType.ORDINAL	Stores the ordinal (integer index, starting at 0). <br>
@@ -60,8 +57,8 @@ Problem: if you rename an enum constant, the value in the database will not chan
 
 | Annotation         | Purpose                                                                                       |
 |--------------------|-----------------------------------------------------------------------------------------------|
-| `@Transactional`   | Marks a method or class to be executed within a transaction. Required for update/delete.     |
-| `@Modifying`       | Indicates that the annotated method modifies data (used with update/delete queries).         |
+| `@Transactional`   | Marks a method or class to be executed within a transaction. Required for update/delete.      |
+| `@Modifying`       | Indicates that the annotated method modifies data (used with update/delete queries).          |
 | `@Query`           | Allows the definition of custom JPQL or native SQL queries.                                   |
 | `@NamedQuery`      | Declares a static named JPQL query at the entity level.                                       |
 
