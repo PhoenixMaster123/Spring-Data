@@ -31,7 +31,8 @@
 | `@Enumerated`        | The @Enumerated annotation in Spring Data JPA (from the JPA specification) is used to specify how an enum should be persisted in the database. |
 | `@Param`             | The @Param annotation in Spring Data JPA is used to bind method parameters to named parameters in a JPQL or native query defined with @Query.  |
 
-NOTE:
+NOTE: 
+
 EnumType.ORDINAL	Stores the ordinal (integer index, starting at 0). <br>
 EnumType.STRING	Stores the name of the enum constant (as a string) (recommended).
 
