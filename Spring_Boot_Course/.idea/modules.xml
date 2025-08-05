@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Introduction_to_Hibernate/Introduction_to_Hibernate.iml" filepath="$PROJECT_DIR$/Introduction_to_Hibernate/Introduction_to_Hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_DB_Apps_Introduction/Java_DB_Apps_Introduction.iml" filepath="$PROJECT_DIR$/Java_DB_Apps_Introduction/Java_DB_Apps_Introduction.iml" />
+    </modules>
+  </component>
+</project>
