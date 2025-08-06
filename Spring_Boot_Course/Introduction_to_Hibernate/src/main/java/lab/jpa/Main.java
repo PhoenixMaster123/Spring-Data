@@ -1,6 +1,6 @@
-package jpa;
+package lab.jpa;
 
-import hibernate.entities.Student;
+import lab.hibernate.entities.Student;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;

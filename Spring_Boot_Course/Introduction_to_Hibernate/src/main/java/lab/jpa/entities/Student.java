@@ -1,4 +1,4 @@
-package jpa.entities;
+package lab.jpa.entities;
 
 import jakarta.persistence.*;
 

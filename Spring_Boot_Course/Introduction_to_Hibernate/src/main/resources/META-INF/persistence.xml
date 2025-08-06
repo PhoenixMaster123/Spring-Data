@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.2">
     <persistence-unit name="my-emf">
-        <class>jpa.entities.Student</class>
+        <class>lab.jpa.entities.Student</class>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/school_jpa?createDatabaseIfNotExist=true"/>

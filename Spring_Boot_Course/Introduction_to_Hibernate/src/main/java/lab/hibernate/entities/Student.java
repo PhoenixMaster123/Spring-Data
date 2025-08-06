@@ -1,4 +1,4 @@
-package hibernate.entities;
+package lab.hibernate.entities;
 
 public class Student {
     private long id;
