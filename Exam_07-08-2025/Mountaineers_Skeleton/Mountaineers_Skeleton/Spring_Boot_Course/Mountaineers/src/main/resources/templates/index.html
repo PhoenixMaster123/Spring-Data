@@ -1,0 +1,43 @@
+</body>
+</html>
+<th:block th:fragment xmlns:th="http://www.w3.org/1999/xhtml">
+    <div class="container justify-content-center mt-3">
+        <div class="jumbotron index-jumbo d-flex justify-content-center">
+            <div class="container">
+                <div class="col-md-12 d-flex border-left border-bottom w-50">
+                    <h1 class="myBackgroundColor">Mountaineers</h1>
+                </div>
+                <div class="col-md-12 d-flex mt-3">
+                    <h4>
+                        Mountains are majestic natural landforms that rise prominently above their surroundings, often formed by tectonic forces or volcanic activity.
+                        They vary greatly in height, climate, and accessibility — from low hills to towering peaks like Mount Everest.
+                        Mountaineers are adventurers and athletes who climb mountains for exploration, sport, or scientific study.
+                        Climbing can range from hiking low mountains to scaling technical high-altitude peaks. Notable mountaineers include: </br>
+
+                            - Sir Edmund Hillary and Tenzing Norgay – the first confirmed climbers to summit Mount Everest in 1953. </br>
+
+                            - Reinhold Messner – famed for being the first to climb all 14 of the world’s 8,000-meter peaks without supplemental oxygen. </br>
+
+                            - Junko Tabei – the first woman to summit Everest and complete the Seven Summits (the highest mountain on each continent). </br>
+</br>
+                        Climbing mountains demands physical endurance, technical skill, and careful planning. Risks include altitude sickness, avalanches,
+                        and extreme weather, but the reward is often unmatched views and personal achievement.
+                    </h4>
+                </div>
+                <div class="col-md-12 text-center">
+                    <th:block th:if="${areImported == true}">
+                        <p><a class="btn btn-primary export-button text-white" th:href="@{/export/mountains}">Export
+                            mountains</a></p>
+                    </th:block>
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <th:block th:if="${areImported == false}">
+                            <p class="bg-dark rounded p-2">Тo see the next task, first import all JSON and XML
+                                files.</p>
+                        </th:block>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</th:block>

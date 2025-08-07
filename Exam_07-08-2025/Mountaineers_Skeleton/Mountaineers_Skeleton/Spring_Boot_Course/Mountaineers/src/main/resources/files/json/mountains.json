@@ -1,0 +1,289 @@
+[
+  {
+    "name": "Mount Vesuvius",
+    "elevation": 1281,
+    "elevationCategory": "LOW",
+    "hardToReach": true,
+    "country": 1
+  },
+  {
+    "name": "Mount Vesuvius",
+    "elevation": 1281,
+    "elevationCategory": "LOW",
+    "hardToReach": true,
+    "country": 1
+  },
+  {
+    "name": "Mauna Loa",
+    "elevation": 4169,
+    "elevationCategory": "HIGH",
+    "hardToReach": true,
+    "country": 2
+  },
+  {
+    "name": "Mount Fuji",
+    "elevation": 3776,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": false,
+    "country": 3
+  },
+  {
+    "name": "Mount St. Helens",
+    "elevation": 2549,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": false,
+    "country": 4
+  },
+  {
+    "name": "Mount Kilimanjaro",
+    "elevation": 5895,
+    "elevationCategory": "HIGH",
+    "hardToReach": true,
+    "country": 9
+  },
+  {
+    "name": "Klyuchevskaya Sopka",
+    "elevation": 4754,
+    "elevationCategory": "HIGH",
+    "hardToReach": true,
+    "country": 8
+  },
+  {
+    "name": "Popocatepetl",
+    "elevation": 5393,
+    "elevationCategory": "HIGH",
+    "hardToReach": true,
+    "country": 6
+  },
+  {
+    "name": "Mount Elbrus",
+    "elevation": 5642,
+    "elevationCategory": "HIGH",
+    "hardToReach": false,
+    "country": 5
+  },
+  {
+    "name": "Eyjafjallajokull",
+    "elevation": 1666,
+    "elevationCategory": "LOW",
+    "hardToReach": true,
+    "country": 7
+  },
+  {
+    "name": "Mount Erebus",
+    "elevation": 3794,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": true,
+    "country": 10
+  },
+  {
+    "name": "Mount Rainier",
+    "elevation": 4392,
+    "elevationCategory": "HIGH",
+    "hardToReach": true,
+    "country": 4
+  },
+  {
+    "name": "Piton de la Fournaise",
+    "elevation": 2632,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": true,
+    "country": 12
+  },
+  {
+    "name": "Mount Etna",
+    "elevation": 3357,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": true,
+    "country": 1
+  },
+  {
+    "name": "Mount Shasta",
+    "elevation": 4322,
+    "elevationCategory": "HIGH",
+    "hardToReach": false,
+    "country": 4
+  },
+  {
+    "name": "Mount Ijen",
+    "elevation": 2799,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": true,
+    "country": 11
+  },
+  {
+    "name": "Mount Rinjani",
+    "elevation": 3726,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": true,
+    "country": 11
+  },
+  {
+    "name": "Mount Merapi",
+    "elevation": 2884,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": true,
+    "country": 11
+  },
+  {
+    "name": "Mount Tambora",
+    "elevation": 2850,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": true,
+    "country": 11
+  },
+  {
+    "name": "Mount Pelee",
+    "elevation": 1397,
+    "elevationCategory": "LOW",
+    "hardToReach": true,
+    "country": 14
+  },
+  {
+    "name": "Pacaya",
+    "elevation": 2552,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": true,
+    "country": 12
+  },
+  {
+    "name": "Novarupta",
+    "elevation": 841,
+    "elevationCategory": "LOW",
+    "hardToReach": true,
+    "country": 4
+  },
+  {
+    "name": "Cotopaxi",
+    "elevation": 5897,
+    "elevationCategory": "HIGH",
+    "hardToReach": true,
+    "country": 13
+  },
+  {
+    "name": "Mount Cleveland",
+    "elevation": 1730,
+    "elevationCategory": "LOW",
+    "hardToReach": true,
+    "country": 4
+  },
+  {
+    "name": "Santa Maria",
+    "elevation": 3772,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": true,
+    "country": 12
+  },
+  {
+    "name": "Mount Aniakchak",
+    "elevation": 1290,
+    "elevationCategory": "LOW",
+    "hardToReach": true,
+    "country": 4
+  },
+  {
+    "name": "Paricutin",
+    "elevation": 2800,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": false,
+    "country": 6
+  },
+  {
+    "name": "Mount Jefferson",
+    "elevation": 3199,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": true,
+    "country": 4
+  },
+  {
+    "name": "Wizard Island",
+    "elevation": 2300,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": true,
+    "country": 4
+  },
+  {
+    "name": "Mount Tehama",
+    "elevation": 3367,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": false,
+    "country": 4
+  },
+  {
+    "name": "Mount Scott",
+    "elevation": 2758,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": false,
+    "country": 4
+  },
+  {
+    "name": "Mono-Inyo Craters",
+    "elevation": 2692,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": true,
+    "country": 4
+  },
+  {
+    "name": "Black Butte",
+    "elevation": 1945,
+    "elevationCategory": "LOW",
+    "hardToReach": true,
+    "country": 4
+  },
+  {
+    "name": "Lassen Peak",
+    "elevation": 3187,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": false,
+    "country": 4
+  },
+  {
+    "name": "Stromboli",
+    "elevation": 924,
+    "elevationCategory": "LOW",
+    "hardToReach": true,
+    "country": 1
+  },
+  {
+    "name": "Mount Sinabung",
+    "elevation": 2460,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": true,
+    "country": 11
+  },
+  {
+    "name": "Mount Semeru",
+    "elevation": 3676,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": true,
+    "country": 11
+  },
+  {
+    "name": "Mount Agung",
+    "elevation": 3031,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": true,
+    "country": 11
+  },
+  {
+    "name": "Krakatoa",
+    "elevation": 813,
+    "elevationCategory": "LOW",
+    "hardToReach": true,
+    "country": 11
+  },
+  {
+    "name": "Mount Kelud",
+    "elevation": 1731,
+    "elevationCategory": "LOW",
+    "hardToReach": true,
+    "country": 11
+  },
+  {
+    "name": "Mount Bromo",
+    "elevation": 2329,
+    "elevationCategory": "MEDIUM",
+    "hardToReach": true,
+    "country": 11
+  }
+]
